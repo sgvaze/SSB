@@ -11,7 +11,6 @@ from SSB.utils import load_class_splits
 CUB_URL = 'https://data.caltech.edu/records/65de6-vp158/files/CUB_200_2011.tgz?download=1'
 AIRCRAFT_URL = 'https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/archives/fgvc-aircraft-2013b.tar.gz'
 CARS_COMMAND = 'kaggle datasets download -d jutrera/stanford-car-dataset-by-classes-folder'
-IMAGENET_SYNSET_COMMAND = 'wget https://image-net.org/data/winter21_whole/{}.tar'      # n02352591
 
 def download_and_unzip_cub(directory, chunk_size=128):
 
@@ -75,29 +74,6 @@ def download_and_unzip_scars(directory):
     with zipfile.ZipFile(zipfile_path, 'r') as zip_ref:
         zip_ref.extractall(directory)
 
-def download_and_unzip_imagenet_21k_synsets(directory):
-
-    class_splits = load_class_splits('imagenet')
-    easy_class_splits = class_splits['unknown_classes']['Easy']
-    hard_class_splits = class_splits['unknown_classes']['Hard']
-
-    def _check_exists():
-        # TODO
-        return True
-
-    if _check_exists():
-        print('ImageNet-21K synsets already downloaded')
-        return
-
-    print('Downloading Stanford Cars...')
-    command = CARS_COMMAND
-    subprocess.run(command.split() + ['-p', directory], check=True)
-
-    print('Extracting Stanford Cars...')
-    zipfile_path = os.path.join(directory, 'stanford-car-dataset-by-classes-folder.zip')
-    with zipfile.ZipFile(zipfile_path, 'r') as zip_ref:
-        zip_ref.extractall(directory)
-
 def download_datasets(datasets_to_download):
 
     config = load_config()
@@ -105,8 +81,7 @@ def download_datasets(datasets_to_download):
     download_funcs = {
         'cub': download_and_unzip_cub,
         'aircraft': download_and_unzip_aircraft,
-        'scars': download_and_unzip_scars,
-        'imagenet_21k': download_and_unzip_imagenet_21k_synsets
+        'scars': download_and_unzip_scars
     }
 
     for dataset_name in datasets_to_download:
