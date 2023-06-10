@@ -73,3 +73,5 @@ def test_cars():
 if __name__ == '__main__':
 
     test_cars()
+    test_cub()
+    test_aircraft()
