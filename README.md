@@ -24,13 +24,12 @@ Place config where data is currenlty location / should be downloaded in ```~/.ss
 
 ```
 # Download FGVC datasets
-from SSB.download import download_datasets
-
-download_datasets(['cub', 'aircraft', 'scars'])
+>> from SSB.download import download_datasets
+>> download_datasets(['cub', 'aircraft', 'scars'])
 
 # Test GCD dataloaders
-cd tests
-python test_gcd_get_datasets.py
+$ cd tests
+$ python test_gcd_get_datasets.py
 
 ```
 
