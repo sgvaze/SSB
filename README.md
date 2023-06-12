@@ -8,7 +8,7 @@ cd SSB
 pip install -e .
 ```
 
-# Set up JSON
+# Set up JSON config
 
 Place config where data is currenlty location / should be downloaded in ```~/.ssb/ssb_config.json```
 
@@ -19,25 +19,6 @@ Place config where data is currenlty location / should be downloaded in ```~/.ss
     "scars_directory": "/scratch/shared/beegfs/sagar/datasets/ssb/Stanford_Cars/"
 }
 ```
-
-# Example commands
-
-```
-# Download FGVC datasets
->> from SSB.download import download_datasets
->> download_datasets(['cub', 'aircraft', 'scars'])
-
-# Test GCD dataloaders
-$ cd tests
-$ python test_gcd_get_datasets.py
-
-```
-
-# Index constructions:
-
-CUB-200-2011: class indices are given 0 - 199. Corresponding to 1 - 200 in the original dataset.
-
-Stanford Cars: Classes ordered based on the order of ```cars_meta.mat``` in the original dataset.
 
 # Kaggle
 
@@ -68,3 +49,22 @@ torchvision
 torch
 scipy
 ```
+
+# Example commands
+
+```
+# Download FGVC datasets
+>> from SSB.download import download_datasets
+>> download_datasets(['cub', 'aircraft', 'scars'])
+
+# Test GCD dataloaders
+$ cd tests
+$ python test_gcd_get_datasets.py
+
+```
+
+# Index constructions:
+
+CUB-200-2011: class indices are given 0 - 199. Corresponding to 1 - 200 in the original dataset.
+
+Stanford Cars: Classes ordered based on the order of ```cars_meta.mat``` in the original dataset.
