@@ -52,6 +52,7 @@ def load_config() -> dict:
         
         with open(config_path, 'w') as f:
             json.dump(DEFAULT_CONFIG, f, indent=4)
+        config = DEFAULT_CONFIG
 
     return config
 
