@@ -11,6 +11,7 @@ class CustomImageFolder(torchvision.datasets.ImageFolder):
 
     def __init__(self, root, transform, dataset_name):
 
+        self.root = root
         ind_ = load_index_to_name()
         index_to_class_split = ind_[dataset_name]
         
