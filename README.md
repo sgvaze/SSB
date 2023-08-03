@@ -131,7 +131,7 @@ Documentation is given inside the function in ```SSB/get_datasets/get_gcd_datase
 ## Get Open-Set Recognition (OSR) datasets
 
 Only ImageNet is currently supported in the OSR challenge. 
-The SSB split (i.e Easy or Hard).
+The SSB split (i.e 'Easy' or 'Hard') should be specified in ```osr_split```.
 
 Documentation is given inside the function in ```SSB/get_datasets/get_osr_datasets_funcs.py```.
 
@@ -139,7 +139,12 @@ Specifying ```eval_only=True``` means only the test datasets will be returned (t
 
 ```
 >> from SSB import get_osr_datasets
->> all_datasets = get_osr_datasets('imagenet', train_transform, test_transform, eval_only=True)
+>> all_datasets = get_osr_datasets(dataset_name='imagenet',
+                                osr_split='Hard', 
+                                train_transform=None, 
+                                test_transform=transform, 
+                                split_train_val=False,
+                                eval_only=True)
 ```
 
 ## Example evaluation
