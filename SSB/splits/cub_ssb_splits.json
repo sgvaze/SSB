@@ -1,0 +1,620 @@
+{
+    "known_classes": [
+        150,
+        70,
+        34,
+        178,
+        199,
+        131,
+        129,
+        147,
+        134,
+        11,
+        26,
+        93,
+        95,
+        121,
+        123,
+        99,
+        149,
+        167,
+        18,
+        31,
+        69,
+        198,
+        116,
+        158,
+        126,
+        17,
+        5,
+        179,
+        111,
+        163,
+        184,
+        81,
+        174,
+        42,
+        53,
+        89,
+        77,
+        55,
+        23,
+        48,
+        43,
+        44,
+        56,
+        28,
+        193,
+        143,
+        0,
+        176,
+        84,
+        15,
+        38,
+        154,
+        141,
+        190,
+        172,
+        124,
+        189,
+        19,
+        80,
+        157,
+        12,
+        9,
+        79,
+        30,
+        94,
+        67,
+        197,
+        97,
+        168,
+        137,
+        119,
+        76,
+        98,
+        88,
+        40,
+        106,
+        171,
+        87,
+        166,
+        186,
+        27,
+        51,
+        144,
+        135,
+        161,
+        64,
+        177,
+        7,
+        146,
+        61,
+        50,
+        162,
+        133,
+        82,
+        39,
+        74,
+        72,
+        91,
+        196,
+        136
+    ],
+    "unknown_classes": {
+        "Easy": [
+            20,
+            159,
+            173,
+            148,
+            1,
+            57,
+            113,
+            165,
+            52,
+            109,
+            14,
+            4,
+            180,
+            6,
+            182,
+            68,
+            33,
+            108,
+            46,
+            35,
+            75,
+            188,
+            187,
+            100,
+            47,
+            105,
+            41,
+            86,
+            16,
+            54,
+            139,
+            138
+        ],
+        "Medium": [
+            152,
+            195,
+            132,
+            83,
+            22,
+            192,
+            153,
+            175,
+            191,
+            155,
+            49,
+            194,
+            73,
+            66,
+            170,
+            151,
+            169,
+            96,
+            103,
+            37,
+            181,
+            127,
+            78,
+            21,
+            10,
+            164,
+            62,
+            2,
+            183,
+            85,
+            45,
+            60,
+            92,
+            185
+        ],
+        "Hard": [
+            29,
+            110,
+            3,
+            8,
+            13,
+            58,
+            142,
+            25,
+            145,
+            63,
+            59,
+            65,
+            24,
+            140,
+            120,
+            32,
+            114,
+            107,
+            160,
+            130,
+            118,
+            101,
+            115,
+            128,
+            117,
+            71,
+            156,
+            112,
+            36,
+            122,
+            104,
+            102,
+            90,
+            125
+        ]
+    },
+    "known_unknown_pairs": {
+        "Easy": [
+            {
+                "known_class": 56,
+                "unknown_class": 20
+            },
+            {
+                "known_class": 163,
+                "unknown_class": 159
+            },
+            {
+                "known_class": 42,
+                "unknown_class": 173
+            },
+            {
+                "known_class": 149,
+                "unknown_class": 148
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 1
+            },
+            {
+                "known_class": 106,
+                "unknown_class": 57
+            },
+            {
+                "known_class": 39,
+                "unknown_class": 113
+            },
+            {
+                "known_class": 178,
+                "unknown_class": 165
+            },
+            {
+                "known_class": 50,
+                "unknown_class": 52
+            },
+            {
+                "known_class": 91,
+                "unknown_class": 109
+            },
+            {
+                "known_class": 53,
+                "unknown_class": 14
+            },
+            {
+                "known_class": 7,
+                "unknown_class": 4
+            },
+            {
+                "known_class": 167,
+                "unknown_class": 180
+            },
+            {
+                "known_class": 5,
+                "unknown_class": 6
+            },
+            {
+                "known_class": 119,
+                "unknown_class": 182
+            },
+            {
+                "known_class": 67,
+                "unknown_class": 68
+            },
+            {
+                "known_class": 124,
+                "unknown_class": 33
+            },
+            {
+                "known_class": 9,
+                "unknown_class": 108
+            },
+            {
+                "known_class": 179,
+                "unknown_class": 46
+            },
+            {
+                "known_class": 193,
+                "unknown_class": 35
+            },
+            {
+                "known_class": 134,
+                "unknown_class": 75
+            },
+            {
+                "known_class": 190,
+                "unknown_class": 188
+            },
+            {
+                "known_class": 28,
+                "unknown_class": 187
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 100
+            },
+            {
+                "known_class": 123,
+                "unknown_class": 47
+            },
+            {
+                "known_class": 88,
+                "unknown_class": 105
+            },
+            {
+                "known_class": 55,
+                "unknown_class": 41
+            },
+            {
+                "known_class": 89,
+                "unknown_class": 86
+            },
+            {
+                "known_class": 34,
+                "unknown_class": 16
+            },
+            {
+                "known_class": 95,
+                "unknown_class": 54
+            },
+            {
+                "known_class": 34,
+                "unknown_class": 139
+            },
+            {
+                "known_class": 34,
+                "unknown_class": 138
+            }
+        ],
+        "Medium": [
+            {
+                "known_class": 178,
+                "unknown_class": 152
+            },
+            {
+                "known_class": 196,
+                "unknown_class": 195
+            },
+            {
+                "known_class": 131,
+                "unknown_class": 132
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 83
+            },
+            {
+                "known_class": 23,
+                "unknown_class": 22
+            },
+            {
+                "known_class": 196,
+                "unknown_class": 192
+            },
+            {
+                "known_class": 154,
+                "unknown_class": 153
+            },
+            {
+                "known_class": 174,
+                "unknown_class": 175
+            },
+            {
+                "known_class": 186,
+                "unknown_class": 191
+            },
+            {
+                "known_class": 178,
+                "unknown_class": 155
+            },
+            {
+                "known_class": 50,
+                "unknown_class": 49
+            },
+            {
+                "known_class": 196,
+                "unknown_class": 194
+            },
+            {
+                "known_class": 72,
+                "unknown_class": 73
+            },
+            {
+                "known_class": 67,
+                "unknown_class": 66
+            },
+            {
+                "known_class": 39,
+                "unknown_class": 170
+            },
+            {
+                "known_class": 178,
+                "unknown_class": 151
+            },
+            {
+                "known_class": 171,
+                "unknown_class": 169
+            },
+            {
+                "known_class": 94,
+                "unknown_class": 96
+            },
+            {
+                "known_class": 149,
+                "unknown_class": 103
+            },
+            {
+                "known_class": 76,
+                "unknown_class": 37
+            },
+            {
+                "known_class": 179,
+                "unknown_class": 181
+            },
+            {
+                "known_class": 38,
+                "unknown_class": 127
+            },
+            {
+                "known_class": 81,
+                "unknown_class": 78
+            },
+            {
+                "known_class": 91,
+                "unknown_class": 21
+            },
+            {
+                "known_class": 26,
+                "unknown_class": 10
+            },
+            {
+                "known_class": 150,
+                "unknown_class": 164
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 62
+            },
+            {
+                "known_class": 0,
+                "unknown_class": 2
+            },
+            {
+                "known_class": 98,
+                "unknown_class": 183
+            },
+            {
+                "known_class": 50,
+                "unknown_class": 85
+            },
+            {
+                "known_class": 51,
+                "unknown_class": 45
+            },
+            {
+                "known_class": 44,
+                "unknown_class": 60
+            },
+            {
+                "known_class": 111,
+                "unknown_class": 92
+            },
+            {
+                "known_class": 184,
+                "unknown_class": 185
+            }
+        ],
+        "Hard": [
+            {
+                "known_class": 28,
+                "unknown_class": 29
+            },
+            {
+                "known_class": 111,
+                "unknown_class": 110
+            },
+            {
+                "known_class": 26,
+                "unknown_class": 3
+            },
+            {
+                "known_class": 26,
+                "unknown_class": 8
+            },
+            {
+                "known_class": 53,
+                "unknown_class": 13
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 58
+            },
+            {
+                "known_class": 144,
+                "unknown_class": 142
+            },
+            {
+                "known_class": 26,
+                "unknown_class": 25
+            },
+            {
+                "known_class": 143,
+                "unknown_class": 145
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 63
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 59
+            },
+            {
+                "known_class": 61,
+                "unknown_class": 65
+            },
+            {
+                "known_class": 23,
+                "unknown_class": 24
+            },
+            {
+                "known_class": 143,
+                "unknown_class": 140
+            },
+            {
+                "known_class": 116,
+                "unknown_class": 120
+            },
+            {
+                "known_class": 30,
+                "unknown_class": 32
+            },
+            {
+                "known_class": 116,
+                "unknown_class": 114
+            },
+            {
+                "known_class": 106,
+                "unknown_class": 107
+            },
+            {
+                "known_class": 176,
+                "unknown_class": 160
+            },
+            {
+                "known_class": 126,
+                "unknown_class": 130
+            },
+            {
+                "known_class": 116,
+                "unknown_class": 118
+            },
+            {
+                "known_class": 38,
+                "unknown_class": 101
+            },
+            {
+                "known_class": 129,
+                "unknown_class": 115
+            },
+            {
+                "known_class": 126,
+                "unknown_class": 128
+            },
+            {
+                "known_class": 129,
+                "unknown_class": 117
+            },
+            {
+                "known_class": 70,
+                "unknown_class": 71
+            },
+            {
+                "known_class": 174,
+                "unknown_class": 156
+            },
+            {
+                "known_class": 116,
+                "unknown_class": 112
+            },
+            {
+                "known_class": 42,
+                "unknown_class": 36
+            },
+            {
+                "known_class": 123,
+                "unknown_class": 122
+            },
+            {
+                "known_class": 91,
+                "unknown_class": 104
+            },
+            {
+                "known_class": 134,
+                "unknown_class": 102
+            },
+            {
+                "known_class": 38,
+                "unknown_class": 90
+            },
+            {
+                "known_class": 123,
+                "unknown_class": 125
+            }
+        ]
+    }
+}

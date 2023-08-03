@@ -1,0 +1,11 @@
+ssb.egg-info/
+__pycache__/
+imagenet_1k_synsets.txt
+notebooks/
+splits_test/
+examples/*.pt
+misc/
+examples/submitit*
+examples/*training*
+examples/*.sh
+examples/open_set_recognition_test.py
