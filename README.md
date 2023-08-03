@@ -142,8 +142,7 @@ Specifying ```eval_only=True``` means only the test datasets will be returned (t
 >> all_datasets = get_osr_datasets(dataset_name='imagenet',
                                 osr_split='Hard', 
                                 train_transform=None, 
-                                test_transform=transform, 
-                                split_train_val=False,
+                                test_transform=test_transform,
                                 eval_only=True)
 ```
 
